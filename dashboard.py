@@ -49,7 +49,7 @@ fig_start_time.update_yaxes(
 )
 
 # Streamlit app
-st.title('Sleep Dashboard')
+st.title('Group 8 Dashboard')
 
 st.write("### Average Sleep Duration per Day")
 st.plotly_chart(fig_duration)
