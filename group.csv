@@ -1,0 +1,455 @@
+﻿Date,Time,Activity,How I feel,Duration,Value,Location,Activity Type
+10/09/2023,12:00:00 am,Sleep,Tired,345,High,Home,Sleep
+10/09/2023,5:45:00 am,Prepare for F2F Class,Sleepy,45,Medium,Home,Self-Care
+10/09/2023,6:30:00 am,Commute,Tired,45,Low,Others,Travel
+10/09/2023,7:15:00 am,Wait for classes to start,Bored,15,Low,School,School
+10/09/2023,7:30:00 am,Attend IT 365 F2F Class,Focused,150,High,School,School
+10/09/2023,10:00:00 am,Eat Lunch,Happy,60,High,School,Self-Care
+10/09/2023,11:00:00 am,Go to the Library,Happy,120,Medium,School,School
+10/09/2023,1:00:00 pm,Attend CSIT 321 F2F Class,Happy,120,High,School,School
+10/09/2023,3:00:00 pm,Attend Rizal F2F Class,Happy,90,High,School,School
+10/09/2023,4:30:00 pm,Commute,Tired,60,Low,Others,Travel
+10/09/2023,5:30:00 pm,Rest,Happy,120,Low,Home,Sleep
+10/09/2023,7:30:00 pm,Eat Dinner,Happy,45,High,Home,Self-Care
+10/09/2023,8:15:00 pm,Make IT 365 Assignment,Focused,150,High,Home,School
+10/09/2023,10:45:00 pm,Social Media Break,Happy,60,Low,Home,Leisure
+10/09/2023,11:45:00 pm,Night Routine,Sleepy,15,Low,Home,Self-Care
+10/10/2023,12:00:00 am,Sleep,Sleepy,420,High,Home,Sleep
+10/10/2023,7:00:00 am,Prepare for Online Class,Tired,30,Medium,Home,Self-Care
+10/10/2023,7:30:00 am,Attend CSIT 327 Online Class,Focused,150,High,Home,School
+10/10/2023,10:00:00 am,Social Media Break,Happy,30,Low,Home,Leisure
+10/10/2023,10:30:00 am,Attend IT 317 Online Class,Focused,90,High,Home,School
+10/10/2023,12:00:00 pm,Social Media Break,Hungry,15,Low,Home,Leisure
+10/10/2023,12:15:00 pm,Eat Brunch,Hungry,45,Medium,Home,Self-Care
+10/10/2023,1:00:00 pm,Nap,Sleepy,30,Low,Home,Sleep
+10/10/2023,1:30:00 pm,Prepare for F2F Class,Tired,30,Medium,Home,Self-Care
+10/10/2023,2:00:00 pm,Commute,Bored,60,Low,Others,Travel
+10/10/2023,3:00:00 pm,Wait for classes to start,Dull,30,Low,School,School
+10/10/2023,3:30:00 pm,Attend CSIT 340 F2F Class,Focused,150,High,School,School
+10/10/2023,6:00:00 pm,Commute,Tired,90,Low,Others,Travel
+10/10/2023,7:30:00 pm,Eat Dinner,Hungry,30,High,Others,Self-Care
+10/10/2023,8:00:00 pm,Rest,Tired,60,Low,Home,Sleep
+10/10/2023,9:00:00 pm,Group meeting,Curious,180,Medium,Home,School
+10/11/2023,12:00:00 am,Night Routine,Tired,15,Low,Home,Self-Care
+10/11/2023,12:15:00 am,Social Media Break,Dull,15,Low,Home,Leisure
+10/11/2023,12:30:00 am,Sleep,Tired,420,High,Home,Sleep
+10/11/2023,7:30:00 am,Social Media Break,Bored,60,Low,Home,Leisure
+10/11/2023,8:30:00 am,Prepare for a school meetup,Happy,90,Medium,Home,Self-Care
+10/11/2023,10:00:00 am,Commute,Excited,60,Low,Others,Travel
+10/11/2023,11:00:00 am,Eat Lunch,Happy,60,High,Others,Self-Care
+10/11/2023,12:00:00 pm,Commute,Happy,15,Low,Others,Travel
+10/11/2023,12:15:00 pm,Help a friend with org work,Focused,225,Medium,Others,Social
+10/11/2023,4:00:00 pm,Eat Snacks,Hungry,30,Medium,Others,Self-Care
+10/11/2023,4:30:00 pm,Commute,Sleepy,75,Low,Others,Travel
+10/11/2023,5:45:00 pm,Rest,Tired,45,Low,Home,Sleep
+10/11/2023,6:30:00 pm,Eat Dinner,Hungry,30,High,Home,Self-Care
+10/11/2023,7:00:00 pm,Make IT 365 Assignment,Focused,90,High,Home,School
+10/11/2023,8:30:00 pm,Social Media Break,Bored,90,Low,Home,Leisure
+10/11/2023,10:00:00 pm,Gaming,Focused,120,Low,Home,Leisure
+10/12/2023,12:00:00 am,Night Routine,Tired,15,Low,Home,Self-Care
+10/12/2023,12:15:00 am,Social Media Break,Sleepy,45,Low,Home,Leisure
+10/12/2023,1:00:00 am,Sleep,Tired,360,High,Home,Sleep
+10/12/2023,7:00:00 am,Prepare for Online Class,Sleepy,30,Medium,Home,Self-Care
+10/12/2023,7:30:00 am,Attend CSIT 327 Online Class,Curious,150,High,Home,School
+10/12/2023,10:00:00 am,Eat Breakfast,Hungry,30,High,Home,Self-Care
+10/12/2023,10:30:00 am,Attend IT 317 Online Class,Focused,90,High,Home,Self-Care
+10/12/2023,12:00:00 pm,Social Media Break,Dull,60,Low,Home,Leisure
+10/12/2023,1:00:00 pm,Rest,Sleepy,30,Low,Home,Sleep
+10/12/2023,1:30:00 pm,Prepare for F2F Class,Anxious,30,Medium,Home,Self-Care
+10/12/2023,2:00:00 pm,Commute,Bored,60,Low,Others,Travel
+10/12/2023,3:00:00 pm,Group meeting,Focused,45,High,School,School
+10/12/2023,3:45:00 pm,Attend CSIT 340 F2F Class,Happy,135,High,School,School
+10/12/2023,6:00:00 pm,Commute,Hungry,60,Low,Others,Travel
+10/12/2023,7:00:00 pm,Eat Dinner,Happy,150,High,Others,Self-Care
+10/12/2023,9:30:00 pm,Walk Home,Happy,30,Low,Others,Travel
+10/12/2023,10:00:00 pm,Rest,Tired,30,Low,Home,Sleep
+10/12/2023,10:30:00 pm,Gaming,Happy,90,Low,Home,Leisure
+10/13/2023,12:00:00 am,Night Routine,Tired,15,Low,Home,Self-Care
+10/13/2023,12:15:00 am,Social Media Break,Sleepy,45,Low,Home,Leisure
+10/13/2023,1:00:00 am,Sleep,Tired,390,High,Home,Sleep
+10/13/2023,7:30:00 am,Prepare for Asynchronous Class,Dull,120,Medium,Home,Self-Care
+10/13/2023,9:30:00 am,Prepare for F2F Class,Bored,60,Medium,Home,Self-Care
+10/13/2023,10:30:00 am,Commute,Sleepy,60,Low,Others,Travel
+10/13/2023,11:30:00 am,Group meeting,Curious,90,High,School,School
+10/13/2023,1:00:00 pm,Attend CSIT 321 F2F Class,Happy,120,High,School,School
+10/13/2023,3:00:00 pm,Attend Techno Consultation,Nervous,120,High,School,School
+10/13/2023,5:00:00 pm,Wait for rain to stop,Sleepy,30,Low,School,Social
+10/13/2023,5:30:00 pm,Commute,Bored,60,Low,Others,Travel
+10/13/2023,6:30:00 pm,Rest,Hungry,60,Low,Home,Sleep
+10/13/2023,7:30:00 pm,Eat Dinner,Happy,120,High,Home,Self-Care
+10/13/2023,9:30:00 pm,Go to the Airport,Excited,45,Low,Others,Travel
+10/13/2023,10:15:00 pm,Commute,Tired,75,Low,Others,Travel
+10/13/2023,11:30:00 pm,Night Routine,Sleepy,15,Low,Home,Self-Care
+10/13/2023,11:45:00 pm,Social Media Break,Bored,45,Low,Home,Leisure
+10/14/2023,12:30:00 am,Sleep,Happy,420,High,Home,Sleep
+10/14/2023,7:30:00 am,Social Media Break,Happy,45,Low,Home,Leisure
+10/14/2023,8:15:00 am,Do Laundry,Focused,45,Medium,Home,Errands
+10/14/2023,9:00:00 am,Attend Techno Consultation,Dull,60,High,Home,School
+10/14/2023,10:00:00 am,Prepare for IT 365 Presentation,Focused,210,High,Home,School
+10/14/2023,1:30:00 pm,Rest,Sleepy,120,Low,Home,Sleep
+10/14/2023,3:30:00 pm,Eat Brunch,Hungry,45,High,Home,Self-Care
+10/14/2023,4:15:00 pm,Social Media Break,Bored,15,Low,Home,Leisure
+10/14/2023,4:30:00 pm,Prepare for IT 365 Presentation,Focused,525,High,Home,School
+10/15/2023,1:15:00 am,Night Routine,Tired,15,Low,Home,Self-Care
+10/15/2023,1:30:00 am,Sleep,Tired,390,High,Home,Sleep
+10/15/2023,8:00:00 am,Eat Breakfast,Hungry,45,High,Home,Self-Care
+10/15/2023,8:45:00 am,Prepare for IT 365 Presentation,Focused,405,High,Home,School
+10/15/2023,3:30:00 pm,Rest,Tired,90,Low,Home,Sleep
+10/15/2023,5:00:00 pm,Prepare for IT 365 Presentation,Tired,300,High,Home,School
+10/15/2023,10:00:00 pm,Eat Dinner,Hungry,30,High,Home,Self-Care
+10/15/2023,10:30:00 pm,Study for CSIT 321 Midterm Exam,Focused,90,High,Home,School
+10/16/2023,12:00:00 am,Night Routine,Sleepy,15,Low,Home,Self-Care
+10/16/2023,12:15:00 am,Social Media Break,Sleepy,15,Low,Home,Leisure
+10/16/2023,12:30:00 am,Sleep,Tired,300,High,Home,Sleep
+10/16/2023,5:30:00 am,Prepare for F2F Class,Dull,60,Medium,Home,Self-Care
+10/16/2023,6:30:00 am,Commute,Sleepy,60,Low,Others,Travel
+10/16/2023,7:30:00 am,Attend IT 365 F2F Class,Nervous,150,High,School,School
+10/16/2023,10:00:00 am,Eat Lunch,Happy,90,High,School,Self-Care
+10/16/2023,11:30:00 am,Study for CSIT 321 Midterm Exam,Focused,90,High,School,School
+10/16/2023,1:00:00 pm,Attend CSIT 321 F2F Class,Nervous,120,High,School,School
+10/16/2023,3:00:00 pm,Attend Rizal F2F Class,Focused,90,High,School,School
+10/16/2023,4:30:00 pm,Prepare For IT 317 Presentation,Focused,90,High,School,School
+10/16/2023,6:00:00 pm,Commute,Tired,90,Low,Others,Travel
+10/16/2023,7:30:00 pm,Eat Dinner,Tired,15,High,Others,Self-Care
+10/16/2023,7:45:00 pm,Walk Home,Tired,60,Low,Others,Travel
+10/16/2023,8:45:00 pm,Do Laundry,Tired,15,Medium,Home,Errands
+10/16/2023,9:00:00 pm,Social Media Break,Sleepy,30,Low,Home,Leisure
+10/16/2023,9:30:00 pm,Prepare For IT 317 Presentation,Tired,135,High,Home,School
+10/16/2023,11:45:00 pm,Night Routine,Sleepy,15,Low,Home,Self-Care
+10/17/2023,12:00:00 am,Sleep,Tired,420,High,Home,Sleep
+10/17/2023,7:00:00 am,Prepare for Online Class,Focused,30,Medium,Home,School
+10/17/2023,7:30:00 am,Attend CSIT 327 Online Class,Focused,60,High,Home,School
+10/17/2023,8:30:00 am,Eat Breakfast,Happy,30,High,Home,Self-Care
+10/17/2023,9:00:00 am,Rest,Sleepy,75,Low,Home,Sleep
+10/17/2023,10:15:00 am,Social Media Break,Bored,15,Low,Home,Leisure
+10/17/2023,10:30:00 am,Attend IT 317 Online Class,Focused,90,High,Home,School
+10/17/2023,12:00:00 pm,Social Media Break,Bored,60,Low,Home,Leisure
+10/17/2023,1:00:00 pm,Rest,Sleepy,120,Low,Home,Sleep
+10/17/2023,3:00:00 pm,General Cleaning,Happy,90,High,Home,Errands
+10/17/2023,4:30:00 pm,Rest,Tired,120,Low,Home,Sleep
+10/17/2023,6:30:00 pm,Fold Laundry,Happy,60,Medium,Home,Errands
+10/17/2023,7:30:00 pm,Social Media Break,Amused,60,Low,Home,Leisure
+10/17/2023,8:30:00 pm,Eat Dinner,Bored,30,High,Home,Self-Care
+10/17/2023,9:00:00 pm,Rest,Bored,90,Low,Home,Sleep
+10/17/2023,10:30:00 pm,Social Media Break,Bored,75,Low,Home,Leisure
+10/17/2023,11:45:00 pm,Night Routine,Sleepy,15,Low,Home,Self-Care
+10/18/2023,12:00:00 am,Sleep,Tired,450,High,Home,Sleep
+10/18/2023,7:30:00 am,Eat Breakfast,Dull,60,High,Home,Self-Care
+10/18/2023,8:30:00 am,Rest,Happy,60,Low,Home,Sleep
+10/18/2023,9:30:00 am,Social Media Break,Happy,30,Low,Home,Leisure
+10/18/2023,10:00:00 am,Group meeting,Focused,180,High,Home,School
+10/18/2023,1:00:00 pm,Eat Lunch,Happy,30,High,Home,Self-Care
+10/18/2023,1:30:00 pm,Group meeting,Focused,180,High,Home,School
+10/18/2023,4:30:00 pm,Rest,Sleepy,120,Low,Home,Sleep
+10/18/2023,6:30:00 pm,Clean my room,Focused,60,High,Home,Errands
+10/18/2023,7:30:00 pm,Rest,Tired,30,Low,Home,Sleep
+10/18/2023,8:00:00 pm,Buy Groceries,Hungry,60,Medium,Others,Errands
+10/18/2023,9:00:00 pm,Eat Dinner,Happy,30,High,Others,Self-Care
+10/18/2023,9:30:00 pm,Study for CSIT 340 Midterm Exam,Focused,120,High,Home,School
+10/18/2023,11:30:00 pm,Night Routine,Sleepy,15,Low,Home,Self-Care
+10/18/2023,11:45:00 pm,Social Media Break,Sleepy,105,Low,Home,Leisure
+10/19/2023,1:30:00 am,Sleep,Tired,330,High,Home,Sleep
+10/19/2023,7:00:00 am,Prepare for Online Class,Dull,30,Medium,Home,Self-Care
+10/19/2023,7:30:00 am,Study for IT 317 Midterm Exam,Focused,180,High,Home,School
+10/19/2023,10:30:00 am,Attend IT 317 Online Class,Curious,90,High,Home,School
+10/19/2023,12:00:00 pm,Study for CSIT 340 Midterm Exam,Focused,75,High,Home,School
+10/19/2023,1:15:00 pm,Prepare for F2F Class,Nervous,75,Medium,Home,Self-Care
+10/19/2023,2:30:00 pm,Commute,Tired,60,Low,Others,Travel
+10/19/2023,3:30:00 pm,Attend CSIT 340 F2F Class,Focused,150,High,School,School
+10/19/2023,6:00:00 pm,Walk with Friends,Happy,30,Low,Others,Social
+10/19/2023,6:30:00 pm,Eat Dinner,Grateful,120,High,Others,Self-Care
+10/19/2023,8:30:00 pm,Commute,Happy,45,Low,Others,Travel
+10/19/2023,9:15:00 pm,Rest,Tired,45,Low,Home,Sleep
+10/19/2023,10:00:00 pm,Study for IT 365 Midterm Exam,Focused,120,High,Home,School
+10/19/2023,12:00:00 am,Night Routine,Sleepy,15,Low,Home,Self-Care
+10/20/2023,12:15:00 am,Social Media Break,Sleepy,45,Low,Home,Leisure
+10/20/2023,1:00:00 am,Sleep,Tired,285,High,Home,Sleep
+10/20/2023,5:45:00 am,Prepare for F2F Class,Sleepy,45,Medium,Home,Self-Care
+10/20/2023,6:30:00 am,Commute,Tired,30,Low,Others,Travel
+10/20/2023,7:00:00 am,Wait for classes to start,Nervous,90,Low,School,School
+10/20/2023,8:30:00 am,Attend IT 365 F2F Class,Nervous,120,High,School,School
+10/20/2023,10:30:00 am,Run Errands,Anxious,135,High,Others,Errands
+10/20/2023,12:45:00 pm,Make Friendship Bracelets,Happy,285,Low,Home,Social
+10/20/2023,5:30:00 pm,Prepare a night out with friends,Happy,120,Low,Home,Self-Care
+10/20/2023,7:00:00 pm,Eat Dinner,Happy,30,High,Others,Self-Care
+10/20/2023,7:30:00 pm,Watch a movie with friends,Happy,180,Medium,Others,Social
+10/20/2023,10:30:00 pm,Social Media Break,Bored,90,Low,Home,Leisure
+10/21/2023,12:00:00 am,Night Routine,Sleepy,15,Low,Home,Self-Care
+10/21/2023,12:15:00 am,Social Media Break,Sleepy,75,Low,Home,Leisure
+10/21/2023,1:30:00 am,Watch F1 Race,Excited,60,Low,Home,Leisure
+10/21/2023,2:30:00 am,Sleep,Tired,300,High,Home,Sleep
+10/21/2023,7:30:00 am,Eat Breakfast,Grateful,60,Medium,Home,Self-Care
+10/21/2023,8:30:00 am,Hangout with Friends,Happy,300,Medium,Others,Social
+10/21/2023,1:30:00 pm,Group meeting,Focused,180,High,Home,School
+10/21/2023,4:30:00 pm,Meetup with a Relative,Nervous,60,Low,Home,Social
+10/21/2023,5:30:00 pm,Social Media Break,Bored,120,Low,Home,Leisure
+10/21/2023,7:30:00 pm,Sleep,Tired,240,High,Home,Sleep
+10/21/2023,11:30:00 pm,Social Media Break,Happy,120,Low,Home,Leisure
+10/22/2023,1:30:00 am,Watch F1 Race,Excited,60,Low,Home,Leisure
+10/22/2023,2:30:00 am,Prepare for a Flight,Excited,135,Medium,Home,Self-Care
+10/22/2023,4:45:00 am,Go to the Airport,Excited,60,Low,Others,Travel
+10/22/2023,5:45:00 am,Prepare for Boarding,Excited,75,Low,Others,Travel
+10/22/2023,7:00:00 am,Fly to Manila,Excited,75,Medium,Others,Travel
+10/22/2023,8:15:00 am,Commute,Hungry,45,Low,Others,Travel
+10/22/2023,9:00:00 am,Eat Breakfast,Happy,60,High,Others,Self-Care
+10/22/2023,10:00:00 am,Go to IKEA,Excited,180,Medium,Others,Leisure
+10/22/2023,1:00:00 pm,Eat Lunch,Happy,60,High,Others,Self-Care
+10/22/2023,2:00:00 pm,Rest,Sleepy,60,Low,Home,Sleep
+10/22/2023,3:00:00 pm,Prepare for the Show,Excited,60,Medium,Home,Self-Care
+10/22/2023,4:00:00 pm,Commute,Excited,15,Low,Others,Travel
+10/22/2023,4:15:00 pm,Wait for the Show to Start,Excited,135,Medium,Others,Leisure
+10/22/2023,6:30:00 pm,Watch Hamilton,Happy,180,High,Others,Leisure
+10/22/2023,9:30:00 pm,Commute,Happy,30,Low,Others,Travel
+10/22/2023,10:00:00 pm,Eat Dinner,Happy,60,High,Home,Self-Care
+10/22/2023,11:00:00 pm,Sleep,Tired,180,High,Home,Sleep
+10/23/2023,2:00:00 am,Prepare for a flight,Tired,30,Medium,Home,Self-Care
+10/23/2023,2:30:00 am,Go to the Airport,Tired,30,Low,Others,Travel
+10/23/2023,3:00:00 am,Prepare for Boarding,Tired,90,Low,Others,Leisure
+10/23/2023,4:30:00 am,Fly to Cebu,Tired,75,Medium,Others,Travel
+10/23/2023,5:45:00 am,Commute,Tired,30,Low,Others,Travel
+10/23/2023,6:15:00 am,Prepare for F2F Class,Dull,15,Medium,Home,Self-Care
+10/23/2023,6:30:00 am,Commute,Sleepy,45,Low,Others,Travel
+10/23/2023,7:15:00 am,Wait for classes to start,Dull,15,Low,School,School
+10/23/2023,7:30:00 am,Attend IT 365 F2F Class,Focused,45,High,School,School
+10/23/2023,8:15:00 am,Make Activity Log,Focused,105,High,School,School
+10/23/2023,10:00:00 am,Eat Lunch,Happy,90,High,School,Self-Care
+10/23/2023,11:30:00 am,Wait for classes to start,Happy,90,Low,School,School
+10/23/2023,1:00:00 pm,Attend CSIT 321 F2F Class,Focused,120,High,School,School
+10/23/2023,3:00:00 pm,Attend Rizal F2F Class,Focused,90,High,School,School
+10/23/2023,4:30:00 pm,Commute,Tired,60,Low,Others,Travel
+10/23/2023,5:30:00 pm,Rest,Hungry,60,Low,Home,Sleep
+10/23/2023,6:30:00 pm,Eat Dinner,Happy,45,High,Home,Self-Care
+10/23/2023,7:15:00 pm,Make IT 317 Presentation,Focused,195,High,Home,School
+10/23/2023,10:30:00 pm,Social Media Break,Happy,45,Low,Home,Leisure
+10/23/2023,11:15:00 pm,Night Routine,Sleepy,15,Low,Home,Self-Care
+10/23/2023,11:30:00 pm,Social Media Break,Sleepy,30,Low,Home,Leisure
+10/09/2023,5:00:00 am,Woke up,Sleepy,20,Medium,Home,Self-Care
+10/09/2023,5:20:00 am,Eat,Happy,10,High,Home,Self-Care
+10/09/2023,5:30:00 am,Getting ready for school,Tired,40,Medium,Home,Self-Care
+10/09/2023,6:10:00 am,Travelling to school,Tired,50,Medium,Others,Travel
+10/09/2023,7:00:00 am,Bonding with friends,Happy,30,Medium,School,Social
+10/09/2023,7:30:00 am,Attending a class,Fine,150,High,School,School
+10/09/2023,10:00:00 am,Sleep,Good,120,High,School,Sleep
+10/09/2023,12:00:00 pm,Eat,Excited,30,High,School,Self-Care
+10/09/2023,12:30:00 pm,Sleep,Good,30,High,School,Sleep
+10/09/2023,1:00:00 pm,Attending a class,Focused,120,High,School,School
+10/09/2023,3:00:00 pm,Attending a class,Focused,120,High,School,School
+10/09/2023,5:00:00 pm,On my way to mall,Excited,30,Low,Others,Travel
+10/09/2023,5:30:00 pm,Going home,Tired,120,Medium,Others,Travel
+10/09/2023,7:30:00 pm,Sleep,Good,120,High,Home,Sleep
+10/09/2023,10:00:00 pm,Eat,Full,30,High,Home,Self-Care
+10/09/2023,10:30:00 pm,Doing Online Activity,Better,90,Low,Home,Leisure
+10/09/2023,12:00:00 am,Doing homework,Stressed,180,High,Home,School
+10/09/2023,3:00:00 am,Sleep,Good,180,High,Home,Sleep
+10/10/2023,7:00:00 am,Getting ready for class,Sleepy,20,Medium,Home,Self-Care
+10/10/2023,7:20:00 am,Doing Online Activity,Good,10,Low,Home,Leisure
+10/10/2023,7:30:00 am,Attending a class,Sleepy,90,High,Home,School
+10/10/2023,9:00:00 am,Sleep,Good,90,Medium,Home,Sleep
+10/10/2023,10:30:00 am,Attending a class,Attentive,120,High,Home,School
+10/10/2023,12:30:00 pm,Eat,Hungry,30,High,Home,Self-Care
+10/10/2023,1:00:00 pm,Preparing for class,Anxious,60,Medium,Home,Self-Care
+10/10/2023,2:30:00 pm,Commuting to school,Tired,90,Medium,Others,Travel
+10/10/2023,3:00:00 pm,Resting,Relaxed,30,High,School,Sleep
+10/10/2023,3:30:00 pm,Attending a class,Stressed,150,High,School,School
+10/10/2023,6:00:00 pm,Going home,Tired,120,Medium,Others,Travel
+10/10/2023,8:00:00 pm,Eat,Hungry,30,High,Home,Self-Care
+10/10/2023,8:30:00 pm,Sleep,Good,120,High,Home,Sleep
+10/10/2023,10:30:00 pm,Doing Online Activity,Relieved,30,Low,Home,Leisure
+10/10/2023,11:00:00 pm,Doing homework,Stressed,180,High,Home,School
+10/10/2023,2:00:00 am,Sleep,Good,270,High,Home,Sleep
+10/11/2023,6:30:00 am,Woke up,Sleepy,30,Medium,Home,Self-Care
+10/11/2023,7:00:00 am,Doing Online Activity,Happy,60,Low,Home,Leisure
+10/11/2023,8:00:00 am,Doing laundry,Tired,120,Medium,Home,Errands
+10/11/2023,10:00:00 am,Eat,Full,30,Medium,Home,Self-Care
+10/11/2023,10:30:00 am,Getting ready for school,Anxious,90,Medium,Home,Self-Care
+10/11/2023,12:00:00 pm,Commuting to school,Tired,120,Medium,School,Travel
+10/11/2023,2:00:00 pm,Meeting with my groupmates,Excited,200,Medium,School,Social
+10/11/2023,5:20:00 pm,Commuting to mall,Excited,80,Low,Others,Travel
+10/11/2023,7:30:00 pm,Going home,Sleepy,120,Medium,Others,Travel
+10/11/2023,11:30:00 pm,Doing homework,Stressed,150,High,Home,School
+10/11/2023,2:00:00 am,Sleeping,Good,320,High,Home,Sleep
+10/12/2023,7:00:00 am,Getting ready for class,Sleepy,20,Medium,Home,Self-Care
+10/12/2023,7:20:00 am,Resting,Good,10,High,Home,Sleep
+10/12/2023,7:30:00 am,Attending a class,Sleepy,150,High,Home,School
+10/12/2023,10:30:00 am,Attending a class,Attentive,120,High,Home,School
+10/12/2023,12:30:00 pm,Eat,Hungry,30,High,Home,Self-Care
+10/12/2023,1:00:00 pm,Preparing for class,ln a hurry,90,Medium,Home,Self-Care
+10/12/2023,2:30:00 pm,Commuting to school,Tired,60,Medium,Others,Travel
+10/12/2023,3:30:00 pm,Attending a class,Stressed,210,High,School,School
+10/12/2023,6:00:00 pm,Going home,Tired,120,Medium,Others,Travel
+10/12/2023,8:00:00 pm,Eat,Hungry,30,High,Home,Self-Care
+10/12/2023,8:30:00 pm,Doing Online Activity,Happy,120,Low,Home,Leisure
+10/12/2023,10:30:00 pm,Sleep,Good,90,High,Home,Sleep
+10/12/2023,11:00:00 pm,Coding,Stressed,180,High,Home,School
+10/12/2023,2:00:00 am,Sleep,Good,210,High,Home,Sleep
+10/13/2023,5:30:00 am,Woke up,Good,60,Medium,Home,Self-Care
+10/13/2023,6:30:00 am,Doing Online Activity,Sleepy,60,Low,Home,Leisure
+10/13/2023,7:30:00 am,Eat,Hungry,30,High,Home,Self-Care
+10/13/2023,8:00:00 am,General House Cleaning,Excited,170,Medium,Home,Errands
+10/13/2023,10:50:00 am,Preparing for school,Tired,40,Medium,Home,Self-Care
+10/13/2023,11:30:00 am,Travelling to school,Alert,150,Medium,Others,Travel
+10/13/2023,1:00:00 pm,Attending a class,Tired,180,High,School,School
+10/13/2023,3:00:00 pm,Going home,Good,150,Medium,Others,Travel
+10/13/2023,5:30:00 pm,Eat,Full,30,High,Home,Self-Care
+10/13/2023,6:00:00 pm,Online meeting,Attentive,120,High,Home,Leisure
+10/13/2023,10:00:00 pm,Doing homework,Stressed,240,High,Home,School
+10/13/2023,3:30:00 am,Sleeping,Good,210,High,Home,Sleep
+10/14/2023,7:00:00 am,Woke up,Sleepy,60,Medium,Home,Self-Care
+10/14/2023,8:00:00 am,Eat,Good,30,High,Home,Self-Care
+10/14/2023,8:30:00 am,Doing laundry,Tired,120,Medium,Home,Errands
+10/14/2023,12:30:00 pm,Eat,Full,30,High,Home,Self-Care
+10/14/2023,1:00:00 pm,Doing homework,Active,240,High,Home,School
+10/14/2023,6:00:00 pm,Doing Online Activity,Good,60,Low,Home,Leisure
+10/14/2023,7:00:00 pm,Preparing food,Happy,30,Medium,Home,Errands
+10/14/2023,7:30:00 pm,Eat,Full,30,High,Home,Self-Care
+10/14/2023,8:00:00 pm,Doing Presentation ,Tired,180,High,Home,School
+10/14/2023,11:00:00 pm,Doing homework,Tired,60,High,Home,School
+10/14/2023,12:00:00 am,Studying AppDev,Alert,60,High,Home,School
+10/14/2023,1:00:00 am,Studying Rizal,Sleepy,60,High,Home,School
+10/14/2023,2:00:00 am,Sleeping,Good,480,High,Home,Sleep
+10/15/2023,10:00:00 am,Woke up,Good,30,Medium,Home,Self-Care
+10/15/2023,10:30:00 am,Resting,Good,30,High,Home,Sleep
+10/15/2023,11:00:00 am,Eat,Hungry,60,High,Home,Self-Care
+10/15/2023,12:00:00 pm,Watching movie,Emotional,60,Low,Home,Leisure
+10/15/2023,1:00:00 pm,Doing Online Activity,Happy,120,Low,Home,Leisure
+10/15/2023,3:00:00 pm,Doing homework,Good,60,High,Home,School
+10/15/2023,4:00:00 pm,Preparing a script,Anxious,60,High,Home,School
+10/15/2023,5:00:00 pm,Preparing food,Happy,60,Medium,Home,Errands
+10/15/2023,6:00:00 pm,Eat,Happy,30,High,Home,Self-Care
+10/15/2023,6:30:00 pm,Finalizing the presentation,Alert,30,High,Home,School
+10/15/2023,7:00:00 pm,Watching movie,Excited,120,Low,Home,Leisure
+10/15/2023,9:00:00 pm,Folding Clothes,Exhausted,60,Medium,Home,Errands
+10/15/2023,10:00:00 pm,Doing Online Activity,Happy,60,Low,Home,Leisure
+10/15/2023,11:00:00 pm,Baking,Serious,120,Low,Home,Errands
+10/15/2023,1:00:00 am,Studying AppDev,Focused,60,High,Home,School
+10/15/2023,2:00:00 am,Sleeping,Good,150,High,Home,Sleep
+10/16/2023,4:30:00 am,Woke up,Good,30,Medium,Home,Self-Care
+10/16/2023,5:00:00 am,Eat,Full,30,High,Home,Self-Care
+10/16/2023,5:30:00 am,Preparing  for school,Better,30,High,Home,Self-Care
+10/16/2023,6:00:00 am,Travelling to school,Anxious,120,Medium,Others,Travel
+10/16/2023,8:00:00 am,Talking with my friends,Ecstatic,120,Medium,School,Social
+10/16/2023,10:00:00 am,Taking exam,Alert,60,High,School,School
+10/16/2023,11:00:00 am,Sleep,Good,30,High,School,Sleep
+10/16/2023,11:30:00 am,Eat,Good,30,High,School,Self-Care
+10/16/2023,12:00:00 pm,Resting,Good,60,High,School,Sleep
+10/16/2023,1:00:00 pm,Taking exam,Scared,120,High,School,School
+10/16/2023,3:00:00 pm,Taking exam,Scared,90,High,School,School
+10/16/2023,4:30:00 pm,Going home,Tired,120,Medium,Others,Travel
+10/16/2023,6:30:00 pm,Sleep,Good,60,High,Home,Sleep
+10/16/2023,7:30:00 pm,Eat,Hungry,30,High,Home,Self-Care
+10/16/2023,8:00:00 pm,Doing chores,Fine,30,Medium,Home,Errands
+10/16/2023,8:30:00 pm,Doing Online Activity,Fine,60,Low,Home,Leisure
+10/16/2023,9:30:00 pm,Watching movie,Curious,60,Low,Home,Leisure
+10/16/2023,10:30:00 pm,Studying IM,Alert,120,High,Home,School
+10/16/2023,12:30:00 am,Sleeping,Tired,240,High,Home,Sleep
+10/17/2023,7:00:00 am,Woke up,Sleepy,30,Medium,Home,Self-Care
+10/17/2023,7:10:00 am,Studying,Focused,20,High,Home,School
+10/17/2023,7:30:00 am,Taking exam,Scared,150,High,Home,School
+10/17/2023,10:00:00 am,Resting,Good,20,High,Home,Sleep
+10/17/2023,10:20:00 am,Eat,Full,10,High,Home,Self-Care
+10/17/2023,10:30:00 am,Attending a class,Alert,120,High,Home,School
+10/17/2023,12:30:00 pm,Eat,Good,30,High,Home,Self-Care
+10/17/2023,1:00:00 pm,Doing Online Activity,Good,120,Low,Home,Leisure
+10/17/2023,3:00:00 pm,Doing chores,Tired,30,Medium,Home,Errands
+10/17/2023,4:30:00 pm,Doing Online Activity,Good,120,Low,Home,Leisure
+10/17/2023,6:30:00 pm,Sleeping,Nice,30,High,Home,Sleep
+10/17/2023,7:00:00 pm,Eat,Full,30,High,Home,Self-Care
+10/17/2023,7:30:00 pm,Doing chores,Tired,30,Medium,Home,Errands
+10/17/2023,8:00:00 pm,Doing homework,Stressed,240,High,Home,School
+10/17/2023,12:00:00 am,Doing Online Activity,Better,120,Low,Home,Leisure
+10/17/2023,2:00:00 am,Sleeping,Good,320,High,Home,Sleep
+10/18/2023,10:30:00 am,Woke up,Sleepy,30,Medium,Home,Self-Care
+10/18/2023,11:00:00 am,Doing Online Activity,Better,30,Low,Home,Leisure
+10/18/2023,11:30:00 am,Eat,Full,30,High,Home,Self-Care
+10/18/2023,12:00:00 pm,Doing chores,Good,30,Medium,Home,Errands
+10/18/2023,12:30:00 pm,Eat,Full,10,High,Home,Self-Care
+10/18/2023,12:40:00 pm,Resting,Good,5,High,Home,Sleep
+10/18/2023,12:45:00 pm,Doing laundry,Tired,75,Medium,Home,Errands
+10/18/2023,2:00:00 pm,Sleep,Sleepy,180,High,Home,Sleep
+10/18/2023,5:00:00 pm,Doing homework,Stressed,60,High,Home,School
+10/18/2023,6:00:00 pm,Doing Online Activity,Good,60,Low,Home,Leisure
+10/18/2023,7:00:00 pm,Making a reviewer,Attentive,30,Medium,Home,School
+10/18/2023,7:30:00 pm,Eat,Good,30,High,Home,Self-Care
+10/18/2023,8:00:00 pm,Doing Online Activity,Good,60,Low,Home,Leisure
+10/18/2023,9:00:00 pm,Sleep,Good,120,High,Home,Sleep
+10/18/2023,11:00:00 pm,Studying,Alert,240,High,Home,School
+10/18/2023,3:00:00 am,Sleeping,Good,270,High,Home,Sleep
+10/19/2023,7:30:00 am,Woke up,Sleepy,30,Medium,Home,Self-Care
+10/19/2023,8:00:00 am,Eat,Happy,30,Low,Home,Self-Care
+10/19/2023,8:30:00 am,Reviewing notes,Focused,90,High,Home,School
+10/19/2023,10:00:00 am,Resting,Good,30,High,Home,Sleep
+10/19/2023,10:30:00 am,Answering PM exam,Scared,90,High,Home,School
+10/19/2023,12:00:00 pm,Eat,Good,30,High,Home,Self-Care
+10/19/2023,1:00:00 pm,Getting ready for school,Fine,60,Medium,Home,Self-Care
+10/19/2023,2:00:00 pm,On my way to school,Anxious,60,Medium,Others,Travel
+10/19/2023,3:00:00 pm,Resting,Good,30,High,School,Sleep
+10/19/2023,3:30:00 pm,Taking exam,Stressed,150,High,School,School
+10/19/2023,6:00:00 pm,On my way home,Nice,90,Medium,Others,Travel
+10/19/2023,7:30:00 pm,Eat,Full,30,High,Home,Self-Care
+10/19/2023,8:00:00 pm,Sleep,Tired,60,High,Home,Sleep
+10/19/2023,9:00:00 pm,Studying,Stressed,180,High,Home,School
+10/19/2023,12:00:00 am,Sleeping,Better,290,High,Home,Sleep
+10/20/2023,4:50:00 am,Woke up,Sleepy,10,Medium,Home,Self-Care
+10/20/2023,5:00:00 am,Eat,Better,30,High,Home,Self-Care
+10/20/2023,5:30:00 am,Getting ready for school,Good,40,Medium,Home,Self-Care
+10/20/2023,6:10:00 am,On my way to school,Anxious,80,Medium,Others,Travel
+10/20/2023,7:30:00 am,Resting,Good,30,High,School,Sleep
+10/20/2023,8:00:00 am,Taking exam,Focused,120,High,School,School
+10/20/2023,10:00:00 am,On my way to my friend's house,Happy,60,Low,Others,Travel
+10/20/2023,11:00:00 am,Resting,Sleepy,60,High,Others,Sleep
+10/20/2023,12:00:00 pm,Eat,Hungry,30,High,Others,Self-Care
+10/20/2023,12:30:00 pm,Sleeping,Good,150,High,Others,Sleep
+10/20/2023,3:00:00 pm,Doing Online Activity,Attentive,120,Low,Others,Leisure
+10/20/2023,5:00:00 pm,Going home,Good,120,Medium,Others,Travel
+10/20/2023,7:00:00 pm,Eat,Good,30,High,Home,Self-Care
+10/20/2023,7:30:00 pm,Doing homework,Fine,180,High,Home,School
+10/20/2023,10:30:00 pm,Doing Online Activity,Good,90,Low,Home,Leisure
+10/20/2023,12:00:00 am,Sleeping,Good,320,High,Home,Sleep
+10/21/2023,7:30:00 am,Woke up,Sleepy,30,Medium,Home,Self-Care
+10/21/2023,8:00:00 am,Doing chores,Focused,60,Medium,Home,Errands
+10/21/2023,9:00:00 am,General House Cleaning,Tired,180,Medium,Home,Errands
+10/21/2023,10:30:00 am,Eat,Good,30,High,Home,Self-Care
+10/21/2023,11:00:00 am,Doing laundry,Tired,60,Medium,Home,Errands
+10/21/2023,12:30:00 pm,Sleep,Sleepy,120,High,Home,Sleep
+10/21/2023,2:00:00 pm,Eat,Good,30,High,Home,Self-Care
+10/21/2023,2:30:00 pm,Doing chores,Good,30,Medium,Home,Errands
+10/21/2023,3:00:00 pm,Folding Clothes,Tired,60,Medium,Home,Errands
+10/21/2023,4:00:00 pm,Resting,Good,180,High,Home,Sleep
+10/21/2023,7:00:00 pm,Eat,Nice,30,High,Home,Self-Care
+10/21/2023,7:30:00 pm,Watching movies,Happy,90,Low,Home,Leisure
+10/21/2023,9:00:00 pm,Doing Online Activity,Tired,120,Low,Home,Leisure
+10/21/2023,11:00:00 pm,Sleeping,Good,390,High,Home,Sleep
+10/22/2023,5:30:00 am,Woke up,Sleepy,30,Medium,Home,Self-Care
+10/22/2023,6:00:00 am,Goes to church,Better,90,High,Others,Travel
+10/22/2023,7:30:00 am,Going home,Good,30,Medium,Others,Travel
+10/22/2023,8:00:00 am,Resting,Good,60,High,Home,Sleep
+10/22/2023,9:00:00 am,Eat,Hungry,30,High,Home,Self-Care
+10/22/2023,9:30:00 am,Bathed my dog,Focused,30,Medium,Home,Errands
+10/22/2023,10:00:00 am,Resting,Happy,120,High,Home,Sleep
+10/22/2023,12:00:00 pm,Eat,Full,30,High,Home,Self-Care
+10/22/2023,12:30:00 pm,Doing homework,Attentive,150,High,Home,School
+10/22/2023,3:00:00 pm,Watching movie,Excited,120,Low,Home,Leisure
+10/22/2023,5:00:00 pm,Doing Online Activity,Attentive,60,Low,Home,Leisure
+10/22/2023,6:00:00 pm,Preparing food,Good,30,Medium,Home,Errands
+10/22/2023,6:30:00 pm,Eat,Good,30,Medium,Home,Self-Care
+10/22/2023,7:00:00 pm,Online meeting,Fine,240,High,Home,Leisure
+10/22/2023,11:00:00 pm,Doing homework,Good,120,High,Home,School
+10/22/2023,1:00:00 am,Sleeping,Good,300,High,Home,Sleep
+10/23/2023,5:00:00 am,Woke up,Sleepy,20,Medium,Home,Self-Care
+10/23/2023,5:20:00 am,Eat,Happy,10,High,Home,Self-Care
+10/23/2023,5:30:00 am,Getting ready for school,Tired,40,Medium,Home,Self-Care
+10/23/2023,6:10:00 am,Travelling to school,Tired,50,Medium,Others,Travel
+10/23/2023,7:00:00 am,Bonding with friends,Happy,30,Medium,School,Social
+10/23/2023,7:30:00 am,Attending a class,Fine,150,High,School,School
+10/23/2023,10:00:00 am,Sleep,Good,120,High,School,Sleep
+10/23/2023,12:00:00 pm,Eat,Excited,30,High,School,Self-Care
+10/23/2023,12:30:00 pm,Sleep,Good,30,High,School,Sleep
+10/23/2023,1:00:00 pm,Attending a class,Focused,120,High,School,School
+10/23/2023,3:00:00 pm,Attending a class,Focused,120,High,School,School
+10/23/2023,5:00:00 pm,On my way to mall,Excited,30,Low,Others,Travel
+10/23/2023,5:30:00 pm,Going home,Tired,120,Medium,Others,Travel
+10/23/2023,7:30:00 pm,Sleep,Good,120,High,Home,Sleep
+10/23/2023,10:00:00 pm,Eat,Full,30,High,Home,Self-Care
+10/23/2023,10:30:00 pm,Doing Online Activity,Better,90,Low,Home,Leisure
+10/23/2023,12:00:00 am,Doing homework,Stressed,180,High,Home,School
+10/23/2023,3:00:00 am,Sleep,Good,180,High,Home,Sleep
