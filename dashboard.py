@@ -58,7 +58,35 @@ plt.axis('off')
 plt.title('Word Cloud for "How I feel"')
 st.pyplot(plt)
 
-# Display the individual graphs, the combined graph, the pie chart, and the word cloud in Streamlit
+# Filter data for sleep activities
+sleep_activities = ['Sleep', 'Sleeping']
+df_sleep = df[(df['Member'].isin(members)) & (df['Activity'].isin(sleep_activities))]
+
+# Convert 'Date' and 'Time' columns to datetime
+df_sleep['DateTime'] = pd.to_datetime(df_sleep['Date'] + ' ' + df_sleep['Time'])
+
+# Group by date and calculate average sleep duration per day among members
+average_sleep_data = df_sleep.groupby(['Date', 'Member'])['Duration'].sum() / 60.0  # Convert minutes to hours
+average_sleep_data = average_sleep_data.reset_index()
+average_sleep_duration = average_sleep_data.groupby('Date')['Duration'].mean()  # Average among members
+average_sleep_duration = average_sleep_duration.reset_index()
+
+# Create a line chart using plotly for the average sleep duration
+average_line_chart = px.line(average_sleep_duration, x='Date', y='Duration',
+                             title='Average Sleep Duration per Day Across Members (in hours)',
+                             labels={'Duration': 'Average Sleep Duration (hours)'})
+
+# Create a line chart using plotly for the sleep duration per day for each member
+grouped_sleep_data = df_sleep.groupby(['Date', 'Member'])['Duration'].sum() / 60.0  # Convert minutes to hours
+grouped_sleep_data = grouped_sleep_data.reset_index()
+line_chart = px.line(grouped_sleep_data, x='Date', y='Duration', color='Member',
+                     title='Sleep Duration per Day for Each Member (in hours)',
+                     labels={'Duration': 'Sleep Duration (hours)'}, line_group='Member')
+
+# Display the line charts, individual graphs, combined graph, pie chart, and word cloud in Streamlit
+st.plotly_chart(average_line_chart, key='Average Sleep Duration Line Chart')
+st.plotly_chart(line_chart, key='Sleep Duration Line Chart')
+
 for i, graph in enumerate(individual_graphs):
     st.plotly_chart(graph, key=f'Graph {i+1}')
 
