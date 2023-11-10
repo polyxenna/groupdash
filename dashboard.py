@@ -10,29 +10,6 @@ df = pd.read_csv('group8.csv')
 # Filter the dataset for the specified members (Bianca, Genevieve, John)
 members = ['Bianca', 'Genevieve', 'John']
 
-# Create a list to store the individual graphs
-individual_graphs = []
-
-# Create separate graphs for each member
-for member in members:
-    # Filter data for the current member
-    df_member = df[df['Member'] == member]
-
-    # Group by Activity Type and calculate the total duration in hours
-    grouped_data = df_member.groupby('Activity Type')['Duration'].sum() / 60.0  # Convert minutes to hours
-    grouped_data = grouped_data.reset_index()
-
-    # Sort the data by the total duration in descending order
-    sorted_data = grouped_data.sort_values(by='Duration', ascending=False)
-
-    # Create a bar graph using plotly for the current member
-    fig = px.bar(sorted_data, x='Activity Type', y='Duration',
-                 title=f'Total Duration of Activity Types for {member} (in hours)',
-                 labels={'Duration': 'Total Duration (hours)'}, color='Activity Type')
-
-    # Add the current graph to the list
-    individual_graphs.append(fig)
-
 # Create a combined graph for all members
 combined_data = df.groupby('Activity Type')['Duration'].sum() / 60.0  # Convert minutes to hours
 combined_data = combined_data.reset_index()
@@ -86,9 +63,6 @@ line_chart = px.line(grouped_sleep_data, x='Date', y='Duration', color='Member',
 # Display the line charts, individual graphs, combined graph, pie chart, and word cloud in Streamlit
 st.plotly_chart(average_line_chart, key='Average Sleep Duration Line Chart')
 st.plotly_chart(line_chart, key='Sleep Duration Line Chart')
-
-for i, graph in enumerate(individual_graphs):
-    st.plotly_chart(graph, key=f'Graph {i+1}')
 
 st.plotly_chart(combined_fig, key='Combined Graph')
 st.plotly_chart(location_fig, key='Location Pie Chart')
