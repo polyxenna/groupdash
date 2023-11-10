@@ -1,6 +1,8 @@
 import pandas as pd
 import plotly.express as px
 import streamlit as st
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
 
 # Load the dataset
 df = pd.read_csv('group8.csv')
@@ -47,7 +49,16 @@ location_data = location_data.reset_index()
 location_fig = px.pie(location_data, names='Location', values='Duration',
                       title='Distribution of Time Spent in Different Locations (in hours)')
 
-# Display the individual graphs, the combined graph, and the pie chart in Streamlit
+# Create a word cloud for the "How I feel" column
+wordcloud_data = ' '.join(df['How I feel'].dropna())  # Join all "How I feel" entries
+wordcloud = WordCloud(width=800, height=400, background_color='white').generate(wordcloud_data)
+plt.figure(figsize=(10, 5))
+plt.imshow(wordcloud, interpolation='bilinear')
+plt.axis('off')
+plt.title('Word Cloud for "How I feel"')
+st.pyplot(plt)
+
+# Display the individual graphs, the combined graph, the pie chart, and the word cloud in Streamlit
 for i, graph in enumerate(individual_graphs):
     st.plotly_chart(graph, key=f'Graph {i+1}')
 
