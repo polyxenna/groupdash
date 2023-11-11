@@ -137,7 +137,7 @@ with chart_container:
                 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
                 '>
                 <h3>
-                    Total Duration of Activity Types Across All Members
+                    Activity Type Distribution based on Duration
                 </h3>
             </div>
         """, unsafe_allow_html=True)
