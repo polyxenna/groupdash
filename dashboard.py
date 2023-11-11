@@ -12,14 +12,18 @@ def load_data(file_name):
 def create_bar_chart(data, x, y, labels, color):
     return px.bar(data, x=x, y=y, labels=labels, color=color)
 
-def create_pie_chart(data, names, values, explode_index=None):
-    fig = px.pie(data, names=names, values=values, title='')
+def create_pie_chart(data, names, values, title='', explode_index=None):
+    fig = px.pie(data, names=names, values=values, title=title)
     fig.update_layout(width=500)
-    
+
     if explode_index is not None:
-        fig.update_traces(pull=[0.1 if i == explode_index else 0 for i in range(len(data))])
+        # Calculate the pull values
+        pull_values = [0.1 if i == explode_index else 0 for i in range(len(data))]
+        fig.update_traces(pull=pull_values)
 
     return fig
+
+
 
 def create_word_cloud(data, title):
     wordcloud = WordCloud(width=800, height=400, background_color='white').generate(data)
@@ -52,8 +56,8 @@ combined_fig = create_bar_chart(combined_sorted_data, 'Activity Type', 'Duration
 
 # Create a pie chart to show the distribution of time spent in different locations
 location_data = df.groupby('Location')['Duration'].sum().reset_index()
-explode_index = location_data['Duration'].idxmax()
-location_fig = create_pie_chart(location_data, 'Location', 'Duration', explode_index)
+
+location_fig = create_pie_chart(location_data, 'Location', 'Duration', explode_index=0)
 
 # Group the data by 'Activity Type' and 'How I feel' columns, sorted in descending order by 'Count'
 feelings_data = group_and_sort_data(df, ['Activity Type', 'How I feel'], ['Count'], [False])
@@ -71,12 +75,6 @@ average_line_chart = create_line_chart(average_sleep_duration, 'Date', 'Duration
 # Create a line chart using plotly for the sleep duration per day for each member
 grouped_sleep_data = df_sleep.groupby(['Date', 'Member'])['Duration'].sum().reset_index()
 line_chart = create_line_chart(grouped_sleep_data, 'Date', 'Duration', {'Duration': 'Sleep Duration (hours)'}, 'Member', 'Member')
-
-# Create pie charts for the top 5 feelings during School, Leisure, and Travel
-for activity in ['School', 'Leisure', 'Travel']:
-    top_feelings = df[df['Activity Type'] == activity]['How I feel'].value_counts().head(5).reset_index()
-    top_feelings.columns = ['Feeling', 'Count']
-    feelings_pie = create_pie_chart(top_feelings, 'Feeling', 'Count')
 
 # Count the occurrences of each activity
 activity_counts = df['Activity'].value_counts()
@@ -257,24 +255,31 @@ with top_feelings_container:
     col5, col6, col7 = st.columns(3)
 
     # Create and display the graph for top 5 feelings during School in the first column
+    # Create and display the graph for top 5 feelings during School in the first column
     with col5:
         top_school_feelings = df[df['Activity Type'] == 'School']['How I feel'].value_counts().head(5).reset_index()
         top_school_feelings.columns = ['Feeling', 'Count']
-        feelings_school_pie = create_pie_chart(top_school_feelings, 'Feeling', 'Count')
+        # Get the index of the row with the highest count
+        explode_index_school = top_school_feelings['Count'].idxmax()
+        feelings_school_pie = create_pie_chart(top_school_feelings, 'Feeling', 'Count', explode_index=explode_index_school)
         st.plotly_chart(feelings_school_pie, key='Feelings During School')
 
     # Create and display the graph for top 5 feelings during Travel in the second column
     with col6:
         top_travel_feelings = df[df['Activity Type'] == 'Travel']['How I feel'].value_counts().head(5).reset_index()
         top_travel_feelings.columns = ['Feeling', 'Count']
-        feelings_travel_pie = create_pie_chart(top_travel_feelings, 'Feeling', 'Count')
+        # Get the index of the row with the highest count
+        explode_index_travel = top_travel_feelings['Count'].idxmax()
+        feelings_travel_pie = create_pie_chart(top_travel_feelings, 'Feeling', 'Count', explode_index=explode_index_travel)
         st.plotly_chart(feelings_travel_pie, key='Feelings During Travel')
 
     # Create and display the graph for top 5 feelings during Leisure in the third column
     with col7:
         top_leisure_feelings = df[df['Activity Type'] == 'Leisure']['How I feel'].value_counts().head(5).reset_index()
         top_leisure_feelings.columns = ['Feeling', 'Count']
-        feelings_leisure_pie = create_pie_chart(top_leisure_feelings, 'Feeling', 'Count')
+        # Get the index of the row with the highest count
+        explode_index_leisure = top_leisure_feelings['Count'].idxmax()
+        feelings_leisure_pie = create_pie_chart(top_leisure_feelings, 'Feeling', 'Count', explode_index=explode_index_leisure)
         st.plotly_chart(feelings_leisure_pie, key='Feelings During Leisure')
 
 # Create another container for sleep duration charts
