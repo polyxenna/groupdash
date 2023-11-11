@@ -45,7 +45,7 @@ location_fig = create_pie_chart(location_data, 'Location', 'Duration', 'Distribu
 create_word_cloud(' '.join(df['How I feel'].dropna()), 'Word Cloud for "How I feel"')
 
 # Filter data for sleep activities
-df_sleep = df[(df['Member'].isin(members)) & (df['Activity'].isin(['Sleep', 'Sleeping']))]
+df_sleep = df[(df['Member'].isin(members)) & (df['Activity'].isin(['Sleep']))]
 df_sleep['DateTime'] = pd.to_datetime(df_sleep['Date'] + ' ' + df_sleep['Time'])
 
 # Group by date and calculate average sleep duration per day among members
@@ -71,3 +71,24 @@ feelings_fig = create_bar_chart(feelings_data, 'Activity Type', 'Count', 'Highes
 # Display the charts in Streamlit
 for chart in [average_line_chart, line_chart, combined_fig, location_fig, feelings_fig]:
     st.plotly_chart(chart)
+    
+# Count the occurrences of each activity
+activity_counts = df['Activity'].value_counts()
+
+# Select the top 15 activities
+top_15_activities = activity_counts.head(15)
+
+# Filter the DataFrame to include only the top 15 activities
+df_top_15 = df[df['Activity'].isin(top_15_activities.index)]
+
+# Create a tree map with both Activity and Location
+fig = px.treemap(df_top_15, path=['Location', 'Activity'], 
+                 title='Top Activities with Highest Occurrences by Location',
+                 width=800, height=600)
+
+fig.update_layout(
+    title=dict(text='Top Activities with Highest Occurrences by Location', x=0.5, y=0.95, font=dict(color='white')),
+    paper_bgcolor='black',
+)
+
+st.plotly_chart(fig)
