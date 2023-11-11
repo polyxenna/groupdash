@@ -243,9 +243,9 @@ Date,Time,Activity,How I feel,Duration,Value,Location,Activity Type,Member
 10/09/2023,3:00:00 am,Sleep,Good,180,High,Home,Sleep,Genevieve
 10/10/2023,7:00:00 am,Getting ready for class,Sleepy,20,Medium,Home,Self-Care,Genevieve
 10/10/2023,7:20:00 am,Doing Online Activity,Good,10,Low,Home,Leisure,Genevieve
-10/10/2023,7:30:00 am,Attending a class,Sleepy,90,High,Home,School,Genevieve
+10/10/2023,7:30:00 am,Online Class,Sleepy,90,High,Home,Home,Genevieve
 10/10/2023,9:00:00 am,Sleep,Good,90,Medium,Home,Sleep,Genevieve
-10/10/2023,10:30:00 am,Attending a class,Attentive,120,High,Home,School,Genevieve
+10/10/2023,10:30:00 am,Online Class,Attentive,120,High,Home,Home,Genevieve
 10/10/2023,12:30:00 pm,Eat,Hungry,30,High,Home,Self-Care,Genevieve
 10/10/2023,1:00:00 pm,Preparing for class,Anxious,60,Medium,Home,Self-Care,Genevieve
 10/10/2023,2:30:00 pm,Commuting to school,Tired,90,Medium,Others,Travel,Genevieve
@@ -267,11 +267,11 @@ Date,Time,Activity,How I feel,Duration,Value,Location,Activity Type,Member
 10/11/2023,5:20:00 pm,Commuting to mall,Excited,80,Low,Others,Travel,Genevieve
 10/11/2023,7:30:00 pm,Going home,Sleepy,120,Medium,Others,Travel,Genevieve
 10/11/2023,11:30:00 pm,Doing homework,Stressed,150,High,Home,School,Genevieve
-10/11/2023,2:00:00 am,Sleeping,Good,320,High,Home,Sleep,Genevieve
+10/11/2023,2:00:00 am,Sleep,Good,320,High,Home,Sleep,Genevieve
 10/12/2023,7:00:00 am,Getting ready for class,Sleepy,20,Medium,Home,Self-Care,Genevieve
 10/12/2023,7:20:00 am,Resting,Good,10,High,Home,Sleep,Genevieve
-10/12/2023,7:30:00 am,Attending a class,Sleepy,150,High,Home,School,Genevieve
-10/12/2023,10:30:00 am,Attending a class,Attentive,120,High,Home,School,Genevieve
+10/12/2023,7:30:00 am,Online Class,Sleepy,150,High,Home,Home,Genevieve
+10/12/2023,10:30:00 am,Online Class,Attentive,120,High,Home,Home,Genevieve
 10/12/2023,12:30:00 pm,Eat,Hungry,30,High,Home,Self-Care,Genevieve
 10/12/2023,1:00:00 pm,Preparing for class,ln a hurry,90,Medium,Home,Self-Care,Genevieve
 10/12/2023,2:30:00 pm,Commuting to school,Tired,60,Medium,Others,Travel,Genevieve
@@ -293,7 +293,7 @@ Date,Time,Activity,How I feel,Duration,Value,Location,Activity Type,Member
 10/13/2023,5:30:00 pm,Eat,Full,30,High,Home,Self-Care,Genevieve
 10/13/2023,6:00:00 pm,Online meeting,Attentive,120,High,Home,Leisure,Genevieve
 10/13/2023,10:00:00 pm,Doing homework,Stressed,240,High,Home,School,Genevieve
-10/13/2023,3:30:00 am,Sleeping,Good,210,High,Home,Sleep,Genevieve
+10/13/2023,3:30:00 am,Sleep,Good,210,High,Home,Sleep,Genevieve
 10/14/2023,7:00:00 am,Woke up,Sleepy,60,Medium,Home,Self-Care,Genevieve
 10/14/2023,8:00:00 am,Eat,Good,30,High,Home,Self-Care,Genevieve
 10/14/2023,8:30:00 am,Doing laundry,Tired,120,Medium,Home,Errands,Genevieve
@@ -306,7 +306,7 @@ Date,Time,Activity,How I feel,Duration,Value,Location,Activity Type,Member
 10/14/2023,11:00:00 pm,Doing homework,Tired,60,High,Home,School,Genevieve
 10/14/2023,12:00:00 am,Studying AppDev,Alert,60,High,Home,School,Genevieve
 10/14/2023,1:00:00 am,Studying Rizal,Sleepy,60,High,Home,School,Genevieve
-10/14/2023,2:00:00 am,Sleeping,Good,480,High,Home,Sleep,Genevieve
+10/14/2023,2:00:00 am,Sleep,Good,480,High,Home,Sleep,Genevieve
 10/15/2023,10:00:00 am,Woke up,Good,30,Medium,Home,Self-Care,Genevieve
 10/15/2023,10:30:00 am,Resting,Good,30,High,Home,Sleep,Genevieve
 10/15/2023,11:00:00 am,Eat,Hungry,60,High,Home,Self-Care,Genevieve
@@ -322,7 +322,7 @@ Date,Time,Activity,How I feel,Duration,Value,Location,Activity Type,Member
 10/15/2023,10:00:00 pm,Doing Online Activity,Happy,60,Low,Home,Leisure,Genevieve
 10/15/2023,11:00:00 pm,Baking,Serious,120,Low,Home,Errands,Genevieve
 10/15/2023,1:00:00 am,Studying AppDev,Focused,60,High,Home,School,Genevieve
-10/15/2023,2:00:00 am,Sleeping,Good,150,High,Home,Sleep,Genevieve
+10/15/2023,2:00:00 am,Sleep,Good,150,High,Home,Sleep,Genevieve
 10/16/2023,4:30:00 am,Woke up,Good,30,Medium,Home,Self-Care,Genevieve
 10/16/2023,5:00:00 am,Eat,Full,30,High,Home,Self-Care,Genevieve
 10/16/2023,5:30:00 am,Preparing  for school,Better,30,High,Home,Self-Care,Genevieve
@@ -341,23 +341,23 @@ Date,Time,Activity,How I feel,Duration,Value,Location,Activity Type,Member
 10/16/2023,8:30:00 pm,Doing Online Activity,Fine,60,Low,Home,Leisure,Genevieve
 10/16/2023,9:30:00 pm,Watching movie,Curious,60,Low,Home,Leisure,Genevieve
 10/16/2023,10:30:00 pm,Studying IM,Alert,120,High,Home,School,Genevieve
-10/16/2023,12:30:00 am,Sleeping,Tired,240,High,Home,Sleep,Genevieve
+10/16/2023,12:30:00 am,Sleep,Tired,240,High,Home,Sleep,Genevieve
 10/17/2023,7:00:00 am,Woke up,Sleepy,30,Medium,Home,Self-Care,Genevieve
 10/17/2023,7:10:00 am,Studying,Focused,20,High,Home,School,Genevieve
 10/17/2023,7:30:00 am,Taking exam,Scared,150,High,Home,School,Genevieve
 10/17/2023,10:00:00 am,Resting,Good,20,High,Home,Sleep,Genevieve
 10/17/2023,10:20:00 am,Eat,Full,10,High,Home,Self-Care,Genevieve
-10/17/2023,10:30:00 am,Attending a class,Alert,120,High,Home,School,Genevieve
+10/17/2023,10:30:00 am,Online Class,Alert,120,High,Home,Home,Genevieve
 10/17/2023,12:30:00 pm,Eat,Good,30,High,Home,Self-Care,Genevieve
 10/17/2023,1:00:00 pm,Doing Online Activity,Good,120,Low,Home,Leisure,Genevieve
 10/17/2023,3:00:00 pm,Doing chores,Tired,30,Medium,Home,Errands,Genevieve
 10/17/2023,4:30:00 pm,Doing Online Activity,Good,120,Low,Home,Leisure,Genevieve
-10/17/2023,6:30:00 pm,Sleeping,Nice,30,High,Home,Sleep,Genevieve
+10/17/2023,6:30:00 pm,Sleep,Nice,30,High,Home,Sleep,Genevieve
 10/17/2023,7:00:00 pm,Eat,Full,30,High,Home,Self-Care,Genevieve
 10/17/2023,7:30:00 pm,Doing chores,Tired,30,Medium,Home,Errands,Genevieve
 10/17/2023,8:00:00 pm,Doing homework,Stressed,240,High,Home,School,Genevieve
 10/17/2023,12:00:00 am,Doing Online Activity,Better,120,Low,Home,Leisure,Genevieve
-10/17/2023,2:00:00 am,Sleeping,Good,320,High,Home,Sleep,Genevieve
+10/17/2023,2:00:00 am,Sleep,Good,320,High,Home,Sleep,Genevieve
 10/18/2023,10:30:00 am,Woke up,Sleepy,30,Medium,Home,Self-Care,Genevieve
 10/18/2023,11:00:00 am,Doing Online Activity,Better,30,Low,Home,Leisure,Genevieve
 10/18/2023,11:30:00 am,Eat,Full,30,High,Home,Self-Care,Genevieve
@@ -373,7 +373,7 @@ Date,Time,Activity,How I feel,Duration,Value,Location,Activity Type,Member
 10/18/2023,8:00:00 pm,Doing Online Activity,Good,60,Low,Home,Leisure,Genevieve
 10/18/2023,9:00:00 pm,Sleep,Good,120,High,Home,Sleep,Genevieve
 10/18/2023,11:00:00 pm,Studying,Alert,240,High,Home,School,Genevieve
-10/18/2023,3:00:00 am,Sleeping,Good,270,High,Home,Sleep,Genevieve
+10/18/2023,3:00:00 am,Sleep,Good,270,High,Home,Sleep,Genevieve
 10/19/2023,7:30:00 am,Woke up,Sleepy,30,Medium,Home,Self-Care,Genevieve
 10/19/2023,8:00:00 am,Eat,Happy,30,Low,Home,Self-Care,Genevieve
 10/19/2023,8:30:00 am,Reviewing notes,Focused,90,High,Home,School,Genevieve
@@ -388,7 +388,7 @@ Date,Time,Activity,How I feel,Duration,Value,Location,Activity Type,Member
 10/19/2023,7:30:00 pm,Eat,Full,30,High,Home,Self-Care,Genevieve
 10/19/2023,8:00:00 pm,Sleep,Tired,60,High,Home,Sleep,Genevieve
 10/19/2023,9:00:00 pm,Studying,Stressed,180,High,Home,School,Genevieve
-10/19/2023,12:00:00 am,Sleeping,Better,290,High,Home,Sleep,Genevieve
+10/19/2023,12:00:00 am,Sleep,Better,290,High,Home,Sleep,Genevieve
 10/20/2023,4:50:00 am,Woke up,Sleepy,10,Medium,Home,Self-Care,Genevieve
 10/20/2023,5:00:00 am,Eat,Better,30,High,Home,Self-Care,Genevieve
 10/20/2023,5:30:00 am,Getting ready for school,Good,40,Medium,Home,Self-Care,Genevieve
@@ -397,14 +397,14 @@ Date,Time,Activity,How I feel,Duration,Value,Location,Activity Type,Member
 10/20/2023,8:00:00 am,Taking exam,Focused,120,High,School,School,Genevieve
 10/20/2023,10:00:00 am,On my way to my friend's house,Happy,60,Low,Others,Travel,Genevieve
 10/20/2023,11:00:00 am,Resting,Sleepy,60,High,Others,Sleep,Genevieve
-10/20/2023,12:00:00 pm,Eat,Hungry,30,High,Others,Self-Care,Genevieve
-10/20/2023,12:30:00 pm,Sleeping,Good,150,High,Others,Sleep,Genevieve
-10/20/2023,3:00:00 pm,Doing Online Activity,Attentive,120,Low,Others,Leisure,Genevieve
+10/20/2023,12:00:00 pm,Eat,Hungry,30,High,Home,Self-Care,Genevieve
+10/20/2023,12:30:00 pm,Sleep,Good,150,High,Home,Sleep,Genevieve
+10/20/2023,3:00:00 pm,Doing Online Activity,Attentive,120,Low,Home,Leisure,Genevieve
 10/20/2023,5:00:00 pm,Going home,Good,120,Medium,Others,Travel,Genevieve
 10/20/2023,7:00:00 pm,Eat,Good,30,High,Home,Self-Care,Genevieve
 10/20/2023,7:30:00 pm,Doing homework,Fine,180,High,Home,School,Genevieve
 10/20/2023,10:30:00 pm,Doing Online Activity,Good,90,Low,Home,Leisure,Genevieve
-10/20/2023,12:00:00 am,Sleeping,Good,320,High,Home,Sleep,Genevieve
+10/20/2023,12:00:00 am,Sleep,Good,320,High,Home,Sleep,Genevieve
 10/21/2023,7:30:00 am,Woke up,Sleepy,30,Medium,Home,Self-Care,Genevieve
 10/21/2023,8:00:00 am,Doing chores,Focused,60,Medium,Home,Errands,Genevieve
 10/21/2023,9:00:00 am,General House Cleaning,Tired,180,Medium,Home,Errands,Genevieve
@@ -418,7 +418,7 @@ Date,Time,Activity,How I feel,Duration,Value,Location,Activity Type,Member
 10/21/2023,7:00:00 pm,Eat,Nice,30,High,Home,Self-Care,Genevieve
 10/21/2023,7:30:00 pm,Watching movies,Happy,90,Low,Home,Leisure,Genevieve
 10/21/2023,9:00:00 pm,Doing Online Activity,Tired,120,Low,Home,Leisure,Genevieve
-10/21/2023,11:00:00 pm,Sleeping,Good,390,High,Home,Sleep,Genevieve
+10/21/2023,11:00:00 pm,Sleep,Good,390,High,Home,Sleep,Genevieve
 10/22/2023,5:30:00 am,Woke up,Sleepy,30,Medium,Home,Self-Care,Genevieve
 10/22/2023,6:00:00 am,Goes to church,Better,90,High,Others,Travel,Genevieve
 10/22/2023,7:30:00 am,Going home,Good,30,Medium,Others,Travel,Genevieve
@@ -434,7 +434,7 @@ Date,Time,Activity,How I feel,Duration,Value,Location,Activity Type,Member
 10/22/2023,6:30:00 pm,Eat,Good,30,Medium,Home,Self-Care,Genevieve
 10/22/2023,7:00:00 pm,Online meeting,Fine,240,High,Home,Leisure,Genevieve
 10/22/2023,11:00:00 pm,Doing homework,Good,120,High,Home,School,Genevieve
-10/22/2023,1:00:00 am,Sleeping,Good,300,High,Home,Sleep,Genevieve
+10/22/2023,1:00:00 am,Sleep,Good,300,High,Home,Sleep,Genevieve
 10/23/2023,5:00:00 am,Woke up,Sleepy,20,Medium,Home,Self-Care,Genevieve
 10/23/2023,5:20:00 am,Eat,Happy,10,High,Home,Self-Care,Genevieve
 10/23/2023,5:30:00 am,Getting ready for school,Tired,40,Medium,Home,Self-Care,Genevieve
