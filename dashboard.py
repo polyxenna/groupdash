@@ -76,7 +76,14 @@ line_chart = create_line_chart(grouped_sleep_data, 'Date', 'Duration', {'Duratio
 for activity in ['School', 'Leisure', 'Travel']:
     top_feelings = df[df['Activity Type'] == activity]['How I feel'].value_counts().head(5).reset_index()
     top_feelings.columns = ['Feeling', 'Count']
-    feelings_pie = create_pie_chart(top_feelings, 'Feeling', 'Count')
+    
+    # Set explode_index to the index of the largest value in the top_feelings DataFrame
+    explode_index = top_feelings['Count'].idxmax()
+    
+    feelings_pie = create_pie_chart(top_feelings, 'Feeling', 'Count', f'Top 5 Feelings during {activity}', explode_index)
+
+    st.plotly_chart(feelings_pie, key=f'Feelings During {activity}')
+
 
 # Count the occurrences of each activity
 activity_counts = df['Activity'].value_counts()
