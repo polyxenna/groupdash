@@ -13,14 +13,15 @@ def create_bar_chart(data, x, y, labels, color):
     return px.bar(data, x=x, y=y, labels=labels, color=color)
 
 def create_pie_chart(data, names, values):
-    return px.pie(data, names=names, values=values)
+    fig = px.pie(data, names=names, values=values, title='')
+    fig.update_layout(width=500)
+    return fig
 
 def create_word_cloud(data, title):
     wordcloud = WordCloud(width=800, height=400, background_color='white').generate(data)
     plt.figure(figsize=(10, 5))
     plt.imshow(wordcloud, interpolation='bilinear')
     plt.axis('off')
-    plt.title(title)
     st.pyplot(plt)
 
 import plotly.express as px
@@ -41,7 +42,9 @@ members = ['Bianca', 'Genevieve', 'John']
 # Create a combined graph for all members
 combined_data = df.groupby('Activity Type')['Duration'].sum().reset_index()
 combined_sorted_data = combined_data.sort_values(by='Duration', ascending=False)
+combined_sorted_data['Duration'] /= 60  # Convert duration from minutes to hours
 combined_fig = create_bar_chart(combined_sorted_data, 'Activity Type', 'Duration', {'Duration': 'Total Duration (hours)'}, 'Activity Type')
+
 
 # Create a pie chart to show the distribution of time spent in different locations
 location_data = df.groupby('Location')['Duration'].sum().reset_index()
@@ -101,6 +104,9 @@ header_html = """
         <h1>
             Group 8 - 2 Week Activity Analysis
         </h1>
+        <p>
+        Bianca Jessa A. Carabio | Genevieve N. Miao | John Oscar D. Roble
+        </p>
     </div>
 """
 
