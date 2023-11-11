@@ -12,9 +12,13 @@ def load_data(file_name):
 def create_bar_chart(data, x, y, labels, color):
     return px.bar(data, x=x, y=y, labels=labels, color=color)
 
-def create_pie_chart(data, names, values):
+def create_pie_chart(data, names, values, explode_index=None):
     fig = px.pie(data, names=names, values=values, title='')
     fig.update_layout(width=500)
+    
+    if explode_index is not None:
+        fig.update_traces(pull=[0.1 if i == explode_index else 0 for i in range(len(data))])
+
     return fig
 
 def create_word_cloud(data, title):
@@ -48,7 +52,8 @@ combined_fig = create_bar_chart(combined_sorted_data, 'Activity Type', 'Duration
 
 # Create a pie chart to show the distribution of time spent in different locations
 location_data = df.groupby('Location')['Duration'].sum().reset_index()
-location_fig = create_pie_chart(location_data, 'Location', 'Duration')
+explode_index = location_data['Duration'].idxmax()
+location_fig = create_pie_chart(location_data, 'Location', 'Duration', explode_index)
 
 # Group the data by 'Activity Type' and 'How I feel' columns, sorted in descending order by 'Count'
 feelings_data = group_and_sort_data(df, ['Activity Type', 'How I feel'], ['Count'], [False])
