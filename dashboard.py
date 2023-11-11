@@ -83,8 +83,6 @@ for activity in ['School', 'Leisure', 'Travel']:
     
     feelings_pie = create_pie_chart(top_feelings, 'Feeling', 'Count', f'Top 5 Feelings during {activity}', explode_index)
 
-    st.plotly_chart(feelings_pie, key=f'Feelings During {activity}')
-
 
 # Count the occurrences of each activity
 activity_counts = df['Activity'].value_counts()
