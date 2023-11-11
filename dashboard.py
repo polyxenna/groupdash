@@ -105,7 +105,7 @@ header_html = """
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         '>
         <h1>
-            Group 8 - 2 Week Activity Analysis
+            Teampered Glass - 2 Week Activity Analysis
         </h1>
         <p>
         Bianca Jessa A. Carabio | Genevieve N. Miao | John Oscar D. Roble
