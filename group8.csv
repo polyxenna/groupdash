@@ -453,79 +453,121 @@ Date,Time,Activity,How I feel,Duration,Value,Location,Activity Type,Member
 10/23/2023,10:30:00 pm,Doing Online Activity,Better,90,Low,Home,Leisure,Genevieve
 10/23/2023,12:00:00 am,Doing homework,Stressed,180,High,Home,School,Genevieve
 10/23/2023,3:00:00 am,Sleep,Good,180,High,Home,Sleep,Genevieve
+10/09/2023,6:00:00 am,Eat,Full,30,High,Home,Self-Care,John
 10/09/2023,7:30:00 am,Attend IT 365 F2F Class,Motivated,150,High,School,School,John
+10/09/2023,11:00:00 am,Eat,Good,20,High,Others,Self-Care,John
 10/09/2023,11:30:00 am,Duty,Motivated,240,High,School,Errands,John
 10/09/2023,3:30:00 pm,Attend IT 317 Online Class,Good,90,High,School,School,John
 10/09/2023,6:00:00 pm,Workout,Good,90,High,Others,Self-Care,John
+10/09/2023,7:45:00 pm,Eat,Good,30,High,Home,Self-Care,John
 10/09/2023,10:50:00 pm,Sleep,Good,350,High,Home,Sleep,John
+10/10/2023,6:00:00 am,Eat,Full,30,High,Home,Self-Care,John
 10/10/2023,7:40:00 am,Schoolworks,Good,30,Medium,Home,School,John
 10/10/2023,8:30:00 am,Duty,Good,240,High,School,Errands,John
+10/10/2023,11:00:00 am,Eat,Good,20,High,Others,Self-Care,John
 10/10/2023,12:30:00 pm,Attend CSIT 327 Online Class,Tired,150,High,School,School,John
 10/10/2023,3:30:00 pm,Attend CSIT 321 F2F Class,Tired,120,High,School,School,John
 10/10/2023,6:00:00 pm,Study,Tired,90,Medium,Home,School,John
+10/10/2023,7:45:00 pm,Eat,Good,30,High,Home,Self-Care,John
 10/10/2023,9:20:00 pm,Chores,Good,10,High,Home,Errands,John
 10/10/2023,11:00:00 pm,Sleep,Good,360,High,Home,Sleep,John
+10/11/2023,6:00:00 am,Eat,Full,30,High,Home,Self-Care,John
 10/11/2023,7:00:00 am,Chores,Tired,40,Medium,Home,Errands,John
+10/11/2023,11:00:00 am,Eat,Good,20,High,Others,Self-Care,John
 10/11/2023,11:30:00 am,Duty,Motivated,240,High,School,Errands,John
 10/11/2023,6:00:00 pm,Workout,Motivated,90,High,Others,Self-Care,John
+10/11/2023,7:45:00 pm,Eat,Good,30,High,Home,Self-Care,John
 10/11/2023,10:00:00 pm,Schoolworks,Tired,30,Medium,Home,School,John
 10/11/2023,10:50:00 pm,Sleep,Tired,400,High,Home,Sleep,John
+10/12/2023,6:00:00 am,Eat,Full,30,High,Home,Self-Care,John
 10/12/2023,8:30:00 am,Duty,Tired,240,High,School,Errands,John
+10/12/2023,11:00:00 am,Eat,Good,20,High,Others,Self-Care,John
 10/12/2023,12:30:00 pm,Attend CSIT 327 Online Class,Good,150,High,School,School,John
 10/12/2023,3:30:00 pm,Attend CSIT 321 F2F Class,Good,120,High,School,School,John
 10/12/2023,6:00:00 pm,Study,Motivated,90,Medium,Home,School,John
+10/12/2023,7:45:00 pm,Eat,Good,30,High,Home,Self-Care,John
 10/12/2023,11:30:00 pm,Sleep,Tired,360,High,Home,Sleep,John
+10/13/2023,6:00:00 am,Eat,Full,30,High,Home,Self-Care,John
 10/13/2023,7:30:00 am,Attend IT 365 F2F Class,Good,150,High,School,School,John
+10/13/2023,11:00:00 am,Eat,Good,20,High,Others,Self-Care,John
 10/13/2023,11:30:00 am,Duty,Tired,240,High,School,Errands,John
 10/13/2023,3:30:00 pm,Attend IT 317 Online Class,Good,90,High,School,School,John
 10/13/2023,6:00:00 pm,Workout,Good,90,High,Others,Self-Care,John
+10/13/2023,7:45:00 pm,Eat,Good,30,High,Home,Self-Care,John
 10/13/2023,11:00:00 pm,Sleep,Tired,420,High,Home,Sleep,John
+10/14/2023,6:00:00 am,Eat,Full,30,High,Home,Self-Care,John
 10/14/2023,8:00:00 am,Duty,Tired,240,High,School,Errands,John
-10/14/2023,12:30:00 pm,Lunch,Good,60,High,Others,Self-Care,John
+10/14/2023,12:30:00 pm,Eat,Good,60,High,Others,Self-Care,John
 10/14/2023,4:30:00 pm,Study,Motivated,120,Medium,Home,School,John
 10/14/2023,7:00:00 pm,Chores,Tired,30,Low,Home,Errands,John
+10/14/2023,7:45:00 pm,Eat,Good,30,High,Home,Self-Care,John
 10/14/2023,11:00:00 pm,Sleep,Tired,390,High,Home,Sleep,John
 10/15/2023,7:00:00 am,Church,Good,60,Medium,Others,Social,John
+10/15/2023,8:30:00 am,Eat,Good,30,High,Others,Self-Care,John
 10/15/2023,10:00:00 am,Read Books,Good,30,Low,Home,Leisure,John
-10/15/2023,12:30:00 pm,Lunch,Good,60,High,Home,Self-Care,John
+10/15/2023,12:30:00 pm,Eat,Good,60,High,Home,Self-Care,John
+10/15/2023,2:00:00 pm,Sleep,Tired,120,Medium,Home,Sleep,John
+10/15/2023,7:30:00 pm,Eat,Full,30,High,Home,Self-Care,John
 10/15/2023,11:00:00 pm,Sleep,Good,350,High,Home,Sleep,John
+10/16/2023,6:30:00 am,Eat,Tired,30,High,Home,Self-Care,John
 10/16/2023,7:30:00 am,Attend IT 365 F2F Class,Tired,150,High,School,School,John
+10/16/2023,10:30:00 am,Eat,Good,30,High,School,Self-Care,John
 10/16/2023,11:30:00 am,Duty,Motivated,240,High,School,Errands,John
 10/16/2023,3:30:00 pm,Attend IT 317 Online Class,Good,90,High,School,School,John
 10/16/2023,6:00:00 pm,Workout,Good,90,High,Others,Self-Care,John
+10/16/2023,7:30:00 pm,Sleep,Good,30,High,Home,Self-Care,John
 10/16/2023,11:00:00 pm,Sleep,Good,390,High,Home,Sleep,John
+10/17/2023,6:00:00 am,Eat,Good,20,High,Home,Self-Care,John
 10/17/2023,7:40:00 am,Schoolworks,Good,30,Medium,Home,School,John
 10/17/2023,8:30:00 am,Duty,Tired,240,High,School,Errands,John
+10/17/2023,11:00:00 am,Eat,Good,30,High,School,Self-Care,John
 10/17/2023,12:30:00 pm,Attend CSIT 327 Online Class,Good,150,High,School,School,John
 10/17/2023,3:30:00 pm,Attend CSIT 321 F2F Class,Motivated,120,High,School,School,John
 10/17/2023,6:00:00 pm,Study,Good,90,Medium,Home,School,John
+10/17/2023,7:30:00 pm,Eat,Full,30,High,Home,Self-Care,John
 10/17/2023,10:30:00 pm,Sleep,Good,420,High,Home,Sleep,John
 10/18/2023,7:00:00 am,Chores,Good,40,Medium,Home,Errands,John
+10/18/2023,10:50:00 am,Eat,Good,20,High,Home,Self-Care,John
 10/18/2023,11:30:00 am,Duty,Tired,240,High,School,Errands,John
 10/18/2023,6:00:00 pm,Workout,Tired,90,High,Others,Self-Care,John
+10/18/2023,7:30:00 pm,Eat,Good,30,High,Others,Self-Care,John
 10/18/2023,10:00:00 pm,Schoolworks,Good,30,Medium,Home,School,John
 10/18/2023,10:30:00 pm,Sleep,Good,420,High,Home,Sleep,John
+10/19/2023,6:50:00 am,Eat,Good,30,High,Home,Self-Care,John
 10/19/2023,8:30:00 am,Duty,Good,240,High,School,Errands,John
+10/19/2023,11:50:00 am,Eat,Good,20,High,School,Self-Care,John
 10/19/2023,12:30:00 pm,Attend CSIT 327 Online Class,Tired,150,High,School,School,John
 10/19/2023,3:30:00 pm,Attend CSIT 321 F2F Class,Motivated,120,High,School,School,John
 10/19/2023,6:00:00 pm,Study,Tired,90,Medium,Home,School,John
+10/19/2023,8:00:00 pm,Eat,Good,30,High,Home,Self-Care,John
 10/19/2023,10:30:00 pm,Sleep,Good,420,High,Home,Sleep,John
+10/20/2023,6:00:00 am,Eat,Full,40,High,Home,Self-Care,John
 10/20/2023,7:30:00 am,Attend IT 365 F2F Class,Tired,150,High,School,School,John
+10/20/2023,12:00:00 pm,Eat,Good,20,High,School,Self-Care,John
 10/20/2023,11:30:00 am,Duty,Tired,240,High,School,Errands,John
 10/20/2023,3:30:00 pm,Attend IT 317 Online Class,Good,90,High,School,School,John
 10/20/2023,6:00:00 pm,Workout,Good,90,High,Others,Self-Care,John
+10/20/2023,7:30:00 pm,Eat,Good,30,High,Others,Self-Care,John
 10/20/2023,11:30:00 pm,Sleep,Tired,360,High,Home,Sleep,John
+10/21/2023,6:30:00 am,Eat,Good,30,High,Home,Self-Care,John
 10/21/2023,8:00:00 am,Duty,Tired,240,High,School,Errands,John
-10/21/2023,12:30:00 pm,Lunch,Good,60,High,Others,Self-Care,John
+10/21/2023,12:30:00 pm,Eat,Good,60,High,Others,Self-Care,John
 10/21/2023,4:30:00 pm,Study,Motivated,120,Medium,Home,School,John
 10/21/2023,7:00:00 pm,Chores,Tired,30,Low,Home,Errands,John
+10/21/2023,8:00:00 pm,Eat,Good,30,High,Home,Self-Care,John
 10/21/2023,10:30:00 pm,Sleep,Tired,420,High,Home,School,John
 10/22/2023,7:00:00 am,Church,Good,60,Medium,Others,Social,John
+10/22/2023,8:00:00 am,Eat,Good,60,High,Others,Self-Care,John
 10/22/2023,10:00:00 am,Read Books,Good,30,Low,Home,Leisure,John
-10/22/2023,12:30:00 pm,Lunch,Good,60,High,Home,Self-Care,John
+10/22/2023,12:30:00 pm,Eat,Good,60,High,Home,Self-Care,John
+10/22/2023,1:30:00 pm,Study,Good,120,Low,Home,School,John
+10/22/2023,7:30:00 pm,Eat,Good,30,High,Home,Self-Care,John
 10/22/2023,12:30:00 am,Sleep,Tired,300,High,Home,Sleep,John
 10/23/2023,7:30:00 am,Attend IT 365 F2F Class,Good,150,High,School,School,John
+10/23/2023,7:30:00 am,Eat,Good,60,High,Home,Self-Care,John
 10/23/2023,11:30:00 am,Duty,Tired,240,High,School,Errands,John
+10/23/2023,12:30:00 pm,Eat,Good,30,High,School,Self-Care,John
 10/23/2023,3:30:00 pm,Attend IT 317 Online Class,Good,90,High,School,School,John
 10/23/2023,6:00:00 pm,Workout,Good,90,High,Others,Self-Care,John
+10/23/2023,7:30:00 pm,Eat,Good,30,High,Others,Self-Care,John
 10/23/2023,10:30:00 pm,Sleep,Good,420,High,Home,Sleep,John

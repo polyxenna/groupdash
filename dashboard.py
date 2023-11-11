@@ -87,8 +87,8 @@ fig = px.treemap(df_top_15, path=['Location', 'Activity'],
                  width=800, height=600)
 
 fig.update_layout(
-    title=dict(text='Top Activities with Highest Occurrences by Location', x=0.5, y=0.95, font=dict(color='white')),
-    paper_bgcolor='black',
+    title=dict(text='Top Activities with Highest Occurrences by Location', x=0.5, y=0.95, font=dict(color='black')),
+    paper_bgcolor='rgba(0,0,0,0)'  # Set the paper background color to transparent
 )
 
 st.plotly_chart(fig)
