@@ -137,7 +137,7 @@ with chart_container:
                 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
                 '>
                 <h3>
-                    Activity Types Ranked based on Total Duration
+                    Activity Types Ranking based on Total Duration
                 </h3>
             </div>
         """, unsafe_allow_html=True)
