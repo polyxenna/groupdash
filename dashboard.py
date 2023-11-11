@@ -238,6 +238,7 @@ st.markdown("""
                 background-color: #CE93D8;
                 padding: 10px;
                 border-radius: 10px;
+                margin-bottom: 20px;
                 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
                 '>
                 <h3>
@@ -257,6 +258,20 @@ with top_feelings_container:
     # Create and display the graph for top 5 feelings during School in the first column
     # Create and display the graph for top 5 feelings during School in the first column
     with col5:
+        st.markdown("""
+            <div style='
+                text-align: center;
+                color: #004080;
+                background-color: #CE93D8;
+                padding-top:15px;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                '>
+                <h5>
+                    School
+                </h5>
+            </div>
+        """, unsafe_allow_html=True)
         top_school_feelings = df[df['Activity Type'] == 'School']['How I feel'].value_counts().head(5).reset_index()
         top_school_feelings.columns = ['Feeling', 'Count']
         # Get the index of the row with the highest count
@@ -266,6 +281,20 @@ with top_feelings_container:
 
     # Create and display the graph for top 5 feelings during Travel in the second column
     with col6:
+        st.markdown("""
+            <div style='
+                text-align: center;
+                color: #004080;
+                background-color: #CE93D8;
+                padding-top:15px;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                '>
+                <h5>
+                    Travel
+                </h5>
+            </div>
+        """, unsafe_allow_html=True)
         top_travel_feelings = df[df['Activity Type'] == 'Travel']['How I feel'].value_counts().head(5).reset_index()
         top_travel_feelings.columns = ['Feeling', 'Count']
         # Get the index of the row with the highest count
@@ -275,6 +304,20 @@ with top_feelings_container:
 
     # Create and display the graph for top 5 feelings during Leisure in the third column
     with col7:
+        st.markdown("""
+            <div style='
+                text-align: center;
+                color: #004080;
+                background-color: #CE93D8;
+                padding-top:15px;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                '>
+                <h5>
+                    Leisure
+                </h5>
+            </div>
+        """, unsafe_allow_html=True)
         top_leisure_feelings = df[df['Activity Type'] == 'Leisure']['How I feel'].value_counts().head(5).reset_index()
         top_leisure_feelings.columns = ['Feeling', 'Count']
         # Get the index of the row with the highest count
