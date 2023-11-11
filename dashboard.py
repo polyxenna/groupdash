@@ -12,14 +12,15 @@ def load_data(file_name):
 def create_bar_chart(data, x, y, labels, color):
     return px.bar(data, x=x, y=y, labels=labels, color=color)
 
-def create_pie_chart(data, names, values, explode_index=None):
-    fig = px.pie(data, names=names, values=values, title='')
+def create_pie_chart(data, names, values, title='', explode_index=None):
+    fig = px.pie(data, names=names, values=values, title=title)
     fig.update_layout(width=500)
-    
+
     if explode_index is not None:
         fig.update_traces(pull=[0.1 if i == explode_index else 0 for i in range(len(data))])
 
     return fig
+
 
 def create_word_cloud(data, title):
     wordcloud = WordCloud(width=800, height=400, background_color='white').generate(data)
