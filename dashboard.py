@@ -13,7 +13,6 @@ def create_bar_chart(data, x, y, labels, color):
     return px.bar(data, x=x, y=y, labels=labels, color=color)
 
 def create_pie_chart(data, names, values, title='', explode_index=None):
-    data['Duration'] /= 60  # Convert duration from minutes to hours
     fig = px.pie(data, names=names, values=values, title=title)
     fig.update_layout(width=500)
 
@@ -23,8 +22,6 @@ def create_pie_chart(data, names, values, title='', explode_index=None):
         fig.update_traces(pull=pull_values)
 
     return fig
-
-
 
 def create_word_cloud(data, title):
     wordcloud = WordCloud(width=800, height=400, background_color='white').generate(data)
