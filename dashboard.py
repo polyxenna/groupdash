@@ -92,7 +92,6 @@ fig = px.treemap(df_top_15, path=['Location', 'Activity'],
 fig.update_layout(
     paper_bgcolor='rgba(0,0,0,0)'  # Set the paper background color to transparent
 )
-
 # Add a header text in a round-edged rectangle using st.markdown with inline HTML/CSS styles
 header_html = """
     <div style='
@@ -112,9 +111,18 @@ header_html = """
         </p>
     </div>
 """
-
 # Use st.markdown to display the HTML content
 st.markdown(header_html, unsafe_allow_html=True)
+
+# Display the first 5 rows of the dataset with a centered layout
+st.markdown("""
+    <div style='text-align: center;'>
+        <h3>Data Set Preview</h3>
+    </div>
+""", unsafe_allow_html=True)
+
+st.dataframe(df.head(), width=1920)  # Adjust the width as needed
+
 
 # Create a container for the charts
 chart_container = st.container()
