@@ -13,15 +13,21 @@ def create_bar_chart(data, x, y, labels, color):
     return px.bar(data, x=x, y=y, labels=labels, color=color)
 
 def create_pie_chart(data, names, values, title='', explode_index=None):
-    fig = px.pie(data, names=names, values=values, title=title)
+    data_copy = data.copy()
+
+    if 'Duration' in data_copy.columns:
+        data_copy['Duration'] /= 60  # Convert duration from minutes to hours
+
+    fig = px.pie(data_copy, names=names, values=values, title=title)
     fig.update_layout(width=500)
 
     if explode_index is not None:
         # Calculate the pull values
-        pull_values = [0.1 if i == explode_index else 0 for i in range(len(data))]
+        pull_values = [0.1 if i == explode_index else 0 for i in range(len(data_copy))]
         fig.update_traces(pull=pull_values)
 
     return fig
+
 
 def create_word_cloud(data, title):
     wordcloud = WordCloud(width=800, height=400, background_color='white').generate(data)
