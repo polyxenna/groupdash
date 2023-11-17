@@ -127,6 +127,89 @@ st.markdown("""
 
 st.dataframe(df.head(), width=1920)  # Adjust the width as needed
 
+st.markdown('<hr>', unsafe_allow_html=True)
+
+# Create a container for additional information
+info_container = st.container()
+
+# Display information about Activity Type with Highest Duration, Location, and Most Prominent Feeling
+with info_container:
+    col_info1, col_info2, col_info3 = st.columns(3)
+
+    # Box for Activity Type with Highest Duration
+    with col_info1:
+        st.markdown("""
+            <div style='
+                text-align: center;
+                color: #31333F;
+                background-color: #CE93D8;
+                padding: 10px;
+                border-radius: 10px;
+                margin-top: 20px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                '>
+                <h3>
+                    Activity Type with the Highest Duration
+                </h3>
+                <p style='font-weight: bold; font-size: 35px; color: #31333F padding-top: -5px;'>
+                    Sleep 🛌
+                </p>
+                <h5>
+                    <em>Average Sleep Per Day: 6.25 hours</em>
+                </h5>
+            </div>
+        """, unsafe_allow_html=True)
+
+    # Box for Location where we spent most of our time
+    with col_info2:
+        st.markdown("""
+            <div style='
+                text-align: center;
+                color: #31333F;
+                background-color: #CE93D8;
+                padding: 10px;
+                border-radius: 10px;
+                margin-top: 20px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                '>
+                <h3>
+                    Location where we spent most of our time
+                </h3>
+                <p style='font-weight: bold; font-size: 35px; color: #31333F; padding-top: -5px;'>
+                    Home 🏠
+                </p>
+                <h5>
+                    <em>Average Time at Home Per Day: 14.32 hours</em>
+                </h5>
+            </div>
+        """, unsafe_allow_html=True)
+
+    # Box for Most Prominent Feeling per day as a group
+    with col_info3:
+        st.markdown("""
+            <div style='
+                text-align: center;
+                color: #31333F;
+                background-color: #CE93D8;
+                padding: 10px;
+                border-radius: 10px;
+                margin-bottom: 25px;
+                margin-top: 20px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                '>
+                <h3>
+                    Most Prominent Feeling per day
+                </h3>
+                <p style='font-weight: bold; font-size: 35px; color: #31333F padding-top: -5px;'>
+                    Tired 🥱
+                </p>
+                <h5>
+                   <em> 8 out of the 15 days, we felt tired the most</em>
+                </h5>
+            </div>
+        """, unsafe_allow_html=True)
+        
+st.markdown('<hr>', unsafe_allow_html=True)
 
 # Create a container for the charts
 chart_container = st.container()
@@ -146,6 +229,7 @@ with chart_container:
                 background-color: #CE93D8;
                 padding: 10px;
                 border-radius: 10px;
+                margin-top: 20px;
                 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
                 '>
                 <h3>
@@ -166,6 +250,7 @@ with chart_container:
                 background-color: #CE93D8;
                 padding: 10px;
                 border-radius: 10px;
+                margin-top: 20px;
                 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
                 '>
                 <h3>
@@ -185,6 +270,7 @@ with chart_container:
                 background-color: #CE93D8;
                 padding: 10px;
                 border-radius: 10px;
+                margin-top: 20px;
                 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
                 '>
                 <h3>
@@ -383,4 +469,3 @@ with sleep_duration_container:
         """, unsafe_allow_html=True)
         # Display the graph for average sleep duration
         st.plotly_chart(average_line_chart)
-
